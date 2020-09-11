@@ -1,0 +1,10 @@
+[
+    {
+        "id": 1,
+        "name": "Movie finder",
+        "imgURL": "https://i.imgur.com/mkMl25d.png",
+        "liveURL": "https://movie-tinder.netlify.app",
+        "codeURL": "https://github.com/BartoszBednarczyk/movie-tinder",
+        "description": "Movie finder is a React app that imitates Tinder, but instead of poeple you can swipe movies. It fetch data from OMDb API and display you a random movie with poster, release date, genres, rating, details and IMDB URL. If you don't like it you can just swipe it left. You can also swipe it right and it'll save itself to clipboard that you can look through anytime you want."
+    }
+]

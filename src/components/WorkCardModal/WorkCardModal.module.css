@@ -1,0 +1,37 @@
+.container {
+    height: auto;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.media {
+    margin: 0 0 0 0 !important;
+}
+
+.header {
+    font-size: 2em;
+    text-align: center;
+}
+
+.description {
+    color: #333333;
+    text-align: justify;
+}
+
+.liveButtonText {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+@media (orientation: landscape) {
+    .container{
+     width: 20vw;
+    }
+}
+
+@media (orientation: portrait) {
+    .container{
+        width: 90vw;
+    }
+}

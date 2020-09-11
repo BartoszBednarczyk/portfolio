@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+
+.liveButtonText {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+.title {
+    font-size: 1.1em;
+    text-align: center;
+    font-weight: 800;
+}
+
+.container {
+    width: 100%;
+}
+
+.modal {
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: hidden !important;
+}
+
+* {
+    outline: none !important;
+}

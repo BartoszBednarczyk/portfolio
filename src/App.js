@@ -1,26 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from 'react'
+import styles from './App.module.css'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import NavigationBar from './components/NavigationBar/NavigationBar'
+import Content from './components/Content/Content'
+import Works from './components/Works/Works'
+import Contact from './components/Contact/Contact'
+
+import getData from './api/index'
+
+
+
+const App = () => {
+    const [isActive, setActive] = useState("2")
+    const [animateDown, setAnimateDown] = useState(false)
+    const [transition, setTransition] = useState(0)
+    const [data, setData] = useState([])
+
+    useEffect(() => {
+        getData().then(res => setData(res))
+    }, [])
+
+    return (
+        <div className={styles.container}>
+            
+            {isActive==="1"?<Works props={data}/>:isActive==="3"?<Contact />:<Content />}
+            
+            
+            <NavigationBar isActive={isActive} setActive={setActive} />
+        </div>
+    )
 }
 
-export default App;
+export default App
