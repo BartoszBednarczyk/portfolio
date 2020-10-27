@@ -26,7 +26,8 @@
 
 @media (orientation: landscape) {
     .container{
-     width: 20vw;
+     max-width: 40vw;
+     height: auto;
     }
 }
 

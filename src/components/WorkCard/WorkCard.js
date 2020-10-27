@@ -18,7 +18,7 @@ import WorkCardModal from '../WorkCardModal/WorkCardModal'
 
 const useStyles = makeStyles({
     root: {
-      
+      boxShadow: '100px 100px #000000;'
     },
     media: {
       height: 200,
@@ -26,7 +26,7 @@ const useStyles = makeStyles({
     },
   });
 
-const WorkCard = (props) => {
+const WorkCard = ({props}) => {
     const classes = useStyles();
 
     const [open, setOpen] = useState(false)
@@ -56,8 +56,8 @@ const WorkCard = (props) => {
             <WorkCardModal props={props} />
         </Fade>
       </Modal>
-<Fade in={true} timeout={600}>
-    <Card className={classes.root} >
+<Fade in={true} timeout={600} className={styles.root}>
+    <Card  >
       <CardActionArea onClick={() => handleOpen()}>
         <CardMedia
           className={classes.media}
@@ -70,7 +70,7 @@ const WorkCard = (props) => {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button variant="contained" size="small" style={{backgroundColor: '#FFA505', color: '#FFFFFF', width: 'auto', padding: '2px'}} startIcon={<VisibilityRoundedIcon />} href={props.liveURL}>
+        <Button variant="outlined" fullWidth="true" style={{outlineColor: '#FFFFFF', color: '#FFA505', padding: '2px'}} href={props.liveURL}>
             <p className={styles.liveButtonText}>Live</p>
         </Button>
         

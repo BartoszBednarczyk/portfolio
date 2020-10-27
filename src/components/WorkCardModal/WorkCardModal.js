@@ -22,7 +22,7 @@ const useStyles = makeStyles({
     },
   });
 
-const WorkCardModal = (props) => {
+const WorkCardModal = ({props}) => {
     const classes = useStyles();
     return (
         <Card className={styles.container} >
