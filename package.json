@@ -9,6 +9,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
+    "react-box-shadow": "^1.0.1",
     "react-dom": "^16.13.1",
     "react-reveal": "^1.2.2",
     "react-rough-notation": "^0.1.1",

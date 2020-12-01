@@ -12,7 +12,7 @@ const Works = ({props}) => {
     useEffect(() => {
         console.log(props)
         setCards(props.map(item => (<Grid item container xs={12} sm={6} md={4}>
-            <WorkCard props={item}/>
+            <WorkCard props={item} />
         </Grid>)))
     }, [])
 

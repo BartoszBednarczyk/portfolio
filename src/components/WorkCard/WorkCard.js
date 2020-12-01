@@ -18,7 +18,7 @@ import WorkCardModal from '../WorkCardModal/WorkCardModal'
 
 const useStyles = makeStyles({
     root: {
-      boxShadow: '100px 100px #000000;'
+      
     },
     media: {
       height: 200,
@@ -58,7 +58,7 @@ const WorkCard = ({props}) => {
       </Modal>
 <Fade in={true} timeout={600} className={styles.root}>
     <Card  >
-      <CardActionArea onClick={() => handleOpen()}>
+      <CardActionArea clasName={styles.root} onClick={() => handleOpen()}>
         <CardMedia
           className={classes.media}
           image={props.imgURL}
