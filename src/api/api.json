@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Movie finder",
-        "imgURL": "https://i.imgur.com/mkMl25d.png",
+        "imgURL": "https://github.com/BartoszBednarczyk/portfolio/blob/master/src/api/images/Movie.png?raw=true",
         "liveURL": "https://movie-tinder.netlify.app",
         "codeURL": "https://github.com/BartoszBednarczyk/movie-tinder",
         "description": "Movie finder is a React app that imitates Tinder, but instead of poeple you can swipe movies. It fetches data from OMDb API and display you a random movie with poster, release date, genres, rating, details and IMDB URL. If you don't like it you can just swipe it left. You can also swipe it right and it'll save itself to clipboard that you can look through anytime you want."
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "name": "Covid-19 tracker",
-        "imgURL": "https://i.imgur.com/mkMl25d.png",
+        "imgURL": "https://github.com/BartoszBednarczyk/portfolio/blob/master/src/api/images/Covid.png?raw=true",
         "liveURL": "https://react-corona-app.netlify.app",
         "codeURL": "https://github.com/BartoszBednarczyk/corona-app",
         "description": "Covid-19 tracker is a React app that present Covid-19 cases in almost every country in the world. It fetches data from covid19.mathdro.id api and using chart.js display data in diagrams. You can choose Global tab to see how the numbers grew over time or any contry tab to see current Infected/Recovered/Deaths statistics."
