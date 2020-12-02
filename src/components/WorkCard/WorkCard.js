@@ -64,7 +64,7 @@ const WorkCard = ({props}) => {
           image={props.imgURL}
           title={props.name}
         />
-        <CardContent>
+        <CardContent className={styles.titleContainer}>
       <h1 className={styles.title}>{props.name}</h1>
           
         </CardContent>

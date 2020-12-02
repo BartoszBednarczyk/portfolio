@@ -8,8 +8,15 @@
 
 .title {
     font-size: 1.1em;
-    text-align: center;
+    text-align: center !important;
     font-weight: 800;
+    margin: 0;
+}
+
+.titleContainer {
+    width: 100%;
+    padding: 10px 2px 10px 2px !important;
+    margin: 0 !important;
 }
 
 .container {

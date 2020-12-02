@@ -47,3 +47,28 @@ a {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
+
+@media (orientation: portrait) {
+    .header {
+        font-size: 2em;
+    }
+
+    .methods {
+        width: 80vw;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .methodsItem {
+        padding: 5px 0px 5px 0px;
+    }
+
+    .box {
+        padding: 20px 5px 20px 5px;
+    }
+
+    a {
+        font-size: 0.8em;
+    }
+    
+    
+}

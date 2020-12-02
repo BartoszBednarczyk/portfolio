@@ -35,4 +35,10 @@
     .container{
         width: 90vw;
     }
+    p {
+        font-size: 0.7em;
+    }
+    .header {
+        font-size: 1.2em;
+    }
 }

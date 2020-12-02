@@ -30,3 +30,10 @@ h3 {
     flex-direction: column;
     background-color: #FFB805;
 }
+
+@media (orientation: portrait) {
+
+    h1 {
+        font-size: 3em;
+    }
+}
