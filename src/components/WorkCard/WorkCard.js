@@ -58,7 +58,7 @@ const WorkCard = ({props}) => {
       </Modal>
 <Fade in={true} timeout={600} className={styles.root}>
     <Card  >
-      <CardActionArea clasName={styles.root} onClick={() => handleOpen()}>
+      <CardActionArea className={styles.root} onClick={() => handleOpen()}>
         <CardMedia
           className={classes.media}
           image={props.imgURL}
