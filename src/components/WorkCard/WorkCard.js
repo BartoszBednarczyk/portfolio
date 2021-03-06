@@ -12,6 +12,9 @@ import Fade from '@material-ui/core/Fade';
 import VisibilityRoundedIcon from '@material-ui/icons/VisibilityRounded';
 import Modal from '@material-ui/core/Modal';
 import Backdrop from '@material-ui/core/Backdrop';
+import InputIcon from '@material-ui/icons/Input';
+import IconButton from '@material-ui/core/IconButton';
+import grey from '@material-ui/core/colors/grey';
 
 import WorkCardModal from '../WorkCardModal/WorkCardModal'
 
@@ -33,9 +36,15 @@ const WorkCard = ({props}) => {
 
     const handleOpen = () => {
       setOpen(true)
+      console.log('open')
     }
     const handleClose = () => {
       setOpen(false)
+      console.log('close')
+    }
+    const test = (e) => {
+      window.open(`${props.liveURL}`)
+      e.stopPropagation()
     }
 
   return (
@@ -46,6 +55,7 @@ const WorkCard = ({props}) => {
         className={styles.modal}
         open={open}
         onClose={handleClose}
+        onBackdropClick={console.log('test')}
         closeAfterTransition
         BackdropComponent={Backdrop}
         BackdropProps={{
@@ -56,8 +66,8 @@ const WorkCard = ({props}) => {
             <WorkCardModal props={props} />
         </Fade>
       </Modal>
-<Fade in={true} timeout={600} className={styles.root}>
-    <Card  >
+
+    {/* <Card  variant="outlined">
       <CardActionArea className={styles.root} onClick={() => handleOpen()}>
         <CardMedia
           className={classes.media}
@@ -75,8 +85,24 @@ const WorkCard = ({props}) => {
         </Button>
         
       </CardActions>
-    </Card>
-    </Fade>
+    </Card> */}
+    <div className={styles.innerContainer} onClick={handleOpen}  style={{
+       backgroundImage: `url(${props.imgURL})`,
+       backgroundSize: `cover`, 
+       backgroundRepeat: `no-repeat`,
+       backgroundPosition: `center`}}>
+    <div className={styles.titleContainer}>
+    <h1 className={styles.title}>{props.name}</h1>
+    {/* <button className={styles.urlButton} onClick={test}>C</button> */}
+    {/* <Button startIcon={<CodeIcon />}></Button> */}
+    <IconButton onClick={test} style={{color: grey[100]}}>
+      <InputIcon />
+    </IconButton>
+    </div>
+    </div>
+    
+    
+
       </div>
     
   );

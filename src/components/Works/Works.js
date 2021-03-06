@@ -23,7 +23,7 @@ const Works = ({props}) => {
                 <Grid item container xs={false} sm={1} md={1} lg={2}/>
                     <Grid item container xs={12} sm={10} md={10} lg={8} alignContent='center' alignItems='center' direction='column'>
                     <Grid item container xs={false} md={1} />
-                    <Grid className={styles.grid} alignItems='center' container item xs={12} md={10} spacing={2}>
+                    <Grid className={styles.grid} alignItems='center' container item xs={12} md={10} spacing={5}>
                         {/* <Grid item container xs={12} sm={6} md={4}>
                             <WorkCard />
                         </Grid>

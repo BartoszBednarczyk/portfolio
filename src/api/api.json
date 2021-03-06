@@ -13,6 +13,14 @@
         "imgURL": "https://github.com/BartoszBednarczyk/portfolio/blob/master/src/api/images/Covid.png?raw=true",
         "liveURL": "https://react-corona-app.netlify.app",
         "codeURL": "https://github.com/BartoszBednarczyk/corona-app",
-        "description": "Covid-19 tracker is a React app that present Covid-19 cases in almost every country in the world. It fetches data from covid19.mathdro.id api and using chart.js display data in diagrams. You can choose Global tab to see how the numbers grew over time or any contry tab to see current Infected/Recovered/Deaths statistics."
+        "description": "Covid-19 tracker is a React app that present Covid-19 cases in almost every country in the world. It fetches data from covid19.mathdro.id api and by using chart.js displays data in diagrams. You can choose Global tab to see how the numbers grew over time or any contry tab to see current Infected/Recovered/Deaths statistics."
+    },
+    {
+        "id": 3,
+        "name": "TicTacToe Online",
+        "imgURL": "https://github.com/BartoszBednarczyk/portfolio/blob/master/src/api/images/TicTacToe.png?raw=true",
+        "liveURL": "https://bartoszbednarczyk.github.io/TicTacToeOnline/",
+        "codeURL": "https://github.com/BartoszBednarczyk/TicTacToeOnline",
+        "description": "Lorem Ipsum"
     }
 ]
