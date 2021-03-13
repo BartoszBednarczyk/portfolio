@@ -30,5 +30,13 @@
         "liveURL": "https://bartoszbednarczyk.github.io/MasterMind/",
         "codeURL": "https://github.com/BartoszBednarczyk/MasterMind",
         "description": "Lorem Ipsum"
+    },
+    {
+        "id": 5,
+        "name": "HP Characters",
+        "imgURL": "https://github.com/BartoszBednarczyk/portfolio/blob/master/src/api/images/HarryPotter.png?raw=true",
+        "liveURL": "https://hp-characters.netlify.app",
+        "codeURL": "https://github.com/BartoszBednarczyk/hp-characters",
+        "description": "Lorem Ipsum"
     }
 ]
