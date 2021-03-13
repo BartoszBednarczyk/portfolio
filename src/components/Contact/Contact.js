@@ -18,7 +18,7 @@ const Contact = () => {
                 <div className={styles.methods}>
                     <div className={styles.methodsItem}>
                         <AlternateEmailRoundedIcon style={{color: "#FFFFFF"}} />
-                        <a className={styles.methodsURL} href="mailto:bfbednarczyk@gmail.com">bfbednarczyk@gmail.com</a>
+                        <a className={styles.methodsURL} href="mailto:bednarczykbartosz@outlook.com">bednarczykbartosz@outlook.com</a>
                     </div>
                     <div className={styles.methodsItem}>
                         <GitHubIcon style={{color: "#FFFFFF"}}/>
