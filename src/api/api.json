@@ -29,7 +29,7 @@
         "imgURL": "https://github.com/BartoszBednarczyk/portfolio/blob/master/src/api/images/TicTacToe.png?raw=true",
         "liveURL": "https://bartoszbednarczyk.github.io/TicTacToeOnline/",
         "codeURL": "https://github.com/BartoszBednarczyk/TicTacToeOnline",
-        "description": "Lorem Ipsum"
+        "description": "TicTacToe Online is a classic JS project but with built-in online mode and minimalistic interface. You can create room, system will generate unique number that you can pass to your friend and you can play together no matter what the distance is. It's created in plain JavaScript with support of Firebase."
     },
     {
         "id": 5,
