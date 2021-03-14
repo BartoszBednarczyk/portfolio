@@ -9,6 +9,14 @@
     },
     {
         "id": 2,
+        "name": "Expense Dashboard",
+        "imgURL": "https://github.com/BartoszBednarczyk/portfolio/blob/master/src/api/images/ExpenseDashboard.png?raw=true",
+        "liveURL": "https://extradashboard.netlify.app",
+        "codeURL": "https://github.com/BartoszBednarczyk/expense-tracker-dashboard",
+        "description": "Expense tracker dashboard is a web app that helps you tracks your payments. You can add them in several categories as an expense or income and all of them will be visible on charts. It's integrated with firebase so you can create your own account and use it on every device. It's possible to use it at the moment but work's still in progress as I'm planning to add History with filtering and sorting options, more advanced charts and voice assistant."
+    },
+    {
+        "id": 3,
         "name": "Covid-19 tracker",
         "imgURL": "https://github.com/BartoszBednarczyk/portfolio/blob/master/src/api/images/Covid.png?raw=true",
         "liveURL": "https://react-corona-app.netlify.app",
@@ -16,7 +24,7 @@
         "description": "Covid-19 tracker is a React app that present Covid-19 cases in almost every country in the world. It fetches data from covid19.mathdro.id api and by using chart.js displays data in diagrams. You can choose Global tab to see how the numbers grew over time or any contry tab to see current Infected/Recovered/Deaths statistics."
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "TicTacToe Online",
         "imgURL": "https://github.com/BartoszBednarczyk/portfolio/blob/master/src/api/images/TicTacToe.png?raw=true",
         "liveURL": "https://bartoszbednarczyk.github.io/TicTacToeOnline/",
@@ -24,15 +32,15 @@
         "description": "Lorem Ipsum"
     },
     {
-        "id": 4,
+        "id": 5,
         "name": "MasterMind",
         "imgURL": "https://github.com/BartoszBednarczyk/portfolio/blob/master/src/api/images/MasterMind.png?raw=true",
         "liveURL": "https://bartoszbednarczyk.github.io/MasterMind/",
         "codeURL": "https://github.com/BartoszBednarczyk/MasterMind",
-        "description": "Lorem Ipsum"
+        "description": "Master Mind is a memory game where you have to remember proper order of shaking buttons. Every round the game gets harder. Built in Vanilla JS."
     },
     {
-        "id": 5,
+        "id": 6,
         "name": "HP Characters",
         "imgURL": "https://github.com/BartoszBednarczyk/portfolio/blob/master/src/api/images/HarryPotter.png?raw=true",
         "liveURL": "https://hp-characters.netlify.app",
