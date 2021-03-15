@@ -1,68 +1,38 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div>
+ <div><img src="https://github.com/BartoszBednarczyk/BartoszBednarczyk/blob/master/Header.png?raw=true" alt="Header"/></div>
+</div>
+<br />
+<br />
+ 
+<img align=right width=350px height=450px src="https://raw.githubusercontent.com/BartoszBednarczyk/BartoszBednarczyk/master/Me.svg" />
 
-## Available Scripts
+ 
+<p align="center">
+I'm third year Computer Science student at the Cracow University of Technology.
+Passionate about new technologies and also board games (kind of nerd).
+Already experienced in e-commerce managing as well as in creating websites, graphic designing and photo processing.
+Currently I'm learning React.
+<br />I'm looking for IT internship offers, feel free to contact me anytime! 
+</p>
+<br />
+ <h2 align="center">Technologies and tools</h1>
+ <p align="center">
+ <img alt="HTML5" width="40px" src="https://github.com/BartoszBednarczyk/BartoszBednarczyk/blob/master/Technologies/html.png?raw=true" />
+ <img alt="CSS" width="40px" src="https://github.com/BartoszBednarczyk/BartoszBednarczyk/blob/master/Technologies/css.png?raw=true" />
+ <img alt="Sass" width="40px" src="https://github.com/BartoszBednarczyk/BartoszBednarczyk/blob/master/Technologies/sass.png?raw=true" />
+ <img alt="Javascript" width="40px" src="https://github.com/BartoszBednarczyk/BartoszBednarczyk/blob/master/Technologies/javascript.png?raw=true" />
+ <img alt="React" width="40px" src="https://github.com/BartoszBednarczyk/BartoszBednarczyk/blob/master/Technologies/react.png?raw=true" />
+ <img alt="Git" width="40px" src="https://github.com/BartoszBednarczyk/BartoszBednarczyk/blob/master/Technologies/git.png?raw=true" />
+ </p>
+ <br />
 
-In the project directory, you can run:
+<p align="center">
+You can contact me here:
+</p>
+<p align="center">
+<a href="https://www.linkedin.com/in/bartoszbednarczyk/" target="_blank" alt="Linkedin"><img src="https://raw.githubusercontent.com/BartoszBednarczyk/BartoszBednarczyk/bc0d5d8933db1ea22208a6ff308a8027693f353a/linkedin.svg"></a>  
+ <a href="mailto:bednarczykbartosz@outlook.com" target="_blank" alt="Mail me"><img src="https://raw.githubusercontent.com/BartoszBednarczyk/BartoszBednarczyk/bc0d5d8933db1ea22208a6ff308a8027693f353a/email.svg"></a>  
+ <a href="https://bednarczykbartosz.pl/" target="_blank" alt="My site"><img src="https://raw.githubusercontent.com/BartoszBednarczyk/BartoszBednarczyk/bc0d5d8933db1ea22208a6ff308a8027693f353a/web.svg"></a>
+</p>
 
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<img src="https://github.com/BartoszBednarczyk/BartoszBednarczyk/blob/master/Footer.png?raw=true" alt="Footer" />
